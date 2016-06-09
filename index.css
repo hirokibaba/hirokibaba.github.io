@@ -1,0 +1,63 @@
+*{
+    color:#808080;
+    font-family: century;
+}
+
+.header-left {
+　font-size: 200px;
+  float: left;
+}
+
+.home{
+  font-size:50px;
+}
+.header-right {
+  float: right;
+  font-size: 50px
+}
+
+.header-right li {
+  float: left;
+  margin:10px;
+  font-size:20px;
+}
+
+li {
+  list-style: none;
+}
+
+#hiroki {
+  width: 100%;
+  /*background-size: cover;*/
+}
+
+.hirokibaba {
+  margin: 40px;
+}
+
+section h2 {
+    width: 200px;
+    height: 20px;
+    margin: 0px auto;
+}
+
+.col-sm-4 {
+    float: left;
+    margin: 20px 190px;
+}
+
+.selected {
+  color: #222222;
+}
+
+.must{
+  color: #990000;
+}
+
+.works{
+  margin: 20px 40px;
+}
+
+form{
+  margin-left:20px;
+}

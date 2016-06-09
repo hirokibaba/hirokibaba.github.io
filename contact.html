@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA=compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="babahirokiへのContact">
+    <title>CONTACT</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet"href="index.css">
+    <link rel="stylesheet"href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jQuery.min.js"></script>
+    <!-- Bootstrap読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min,js"></script>
+    <title>CONTACT</title>
+  </head>
+  <body>
+    <div class="header clearfix">
+      <div class="header-left">
+        <a class="home" href="index.html">HIROKI</a>
+      </div>
+      <div class="header-right">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="selected">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <h1>Contact</h1>
+      <p>お気軽にお問い合わせください。</p>
+      <p>下記フォームよりわかる範囲でご記入ください。</p>
+    </div>
+    <form class="form-horizontal" action="" method="post">
+      <div>
+        <p>名前</p>
+        <label><input type="text" name="name"/></label>
+      </div>
+      <div>
+        <p>メールアドレス</p>
+        <label><input type="text" name="tel"/></label>
+      </div>
+      <div>
+        <p>電話番号</p>
+        <label><input type="text" name="tel"/></label>
+      </div>
+      <div>
+        <p>住所</p>
+        <select name="select1">
+          <option value="1">香川県</option>
+          <option value="2">徳島県</option>
+          <option value="3">高知県</option>
+          <option value="4">愛媛県</option>
+        </select>
+      </div>
+      <div>
+        <label>男<input type="radio"name="gender" value="man"/></label>
+        <label>女<input type="radio"name="gender" value="woman"/></label>
+      </div>
+      <div>
+        <p>お問い合わせ</p>
+        <textarea name="opinion" cols="40" rows="10" maxlength="400"
+        placeholder="ご意見を入力してください"></textarea>
+      </div>
+    </form>
+  </body>
+</html>
